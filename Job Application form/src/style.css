@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
